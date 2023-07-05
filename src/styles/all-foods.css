@@ -1,0 +1,32 @@
+.search-widgets,
+.sort-widgets select {
+  padding: 7px 15px;
+  border: 1px solid #fde4e4;
+  border-radius: 5px;
+}
+
+.search-widgets span {
+  cursor: pointer;
+}
+
+.search-widgets input {
+  border: none;
+  outline: none;
+}
+
+.sort-widgets select {
+  outline: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .search-widgets,
+  .sort-widgets select {
+    padding: 3px 10px;
+    border: 1px solid #fde4e4;
+    border-radius: 5px;
+    font-size: .7rem;
+    width: 100px !important;
+  }
+
+}

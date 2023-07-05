@@ -1,0 +1,29 @@
+
+.paginationBtns{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin: 2rem auto 0;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.paginationBtns a{
+    text-decoration: none;
+    background-color: #212245 ;
+    color: #fff !important;
+    padding: 5px 13px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+    font-size: .9rem;
+}
+
+.paginationBtns a:hover{
+    transform: scale(1.1);
+}

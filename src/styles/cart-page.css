@@ -1,0 +1,45 @@
+.img-tableData{
+    width: 80px;
+}
+
+.img-tableData img{
+    width: 100%;
+}
+
+.delete-row-btn i{
+    cursor: pointer;
+    border: none;
+    color: #df2020;
+}
+
+.cart-page-btns button a{
+        color: #fff;
+        text-decoration: none;
+}
+
+.subtotal-amount{
+    color: #df2020;
+    font-size: 1.5rem;
+}
+
+.table tr td{
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 576px){
+    .subtotal-text{
+        font-size: .9rem;
+    }
+
+    .subtotal-amount{
+        font-size: 1rem;
+    }
+
+    .img-tableData img{
+        width: 70%;
+    }
+
+    th , td{
+        font-size: .7rem;
+    }
+}

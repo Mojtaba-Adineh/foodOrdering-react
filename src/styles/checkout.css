@@ -1,0 +1,28 @@
+.checkout-bill{
+    background-color: #fde4e4;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 992px) {
+    .checkout-bill h6{
+        font-size: .8rem;
+    }
+
+    .checkout-bill h5{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .checkout-bill{
+        margin-bottom: 50px;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .checkout-bill{
+        width: 90%;
+    }
+}
+

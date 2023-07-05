@@ -1,0 +1,174 @@
+.hero-content {
+  padding-top: 70px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  line-height: 55px;
+}
+
+.hero-title span {
+  color: #df2020;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: #777;
+}
+
+.hero-img-container {
+  margin-top: -2rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.hero-image {
+  width: 90%;
+}
+
+.all-foods-btn {
+  background: transparent !important;
+  border: 1px solid #df2020 !important ;
+  border: none;
+  outline: none;
+  padding: 7px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.all-foods-btn a {
+  color: #df2020;
+}
+
+.all-foods-btn:hover a {
+  color: #df2020;
+}
+
+.order-btn {
+  font-size: 1rem;
+  letter-spacing: 1.3px;
+  font-weight: 600;
+  color: #fff;
+  background: #df2020;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 12px 12px 24px rgba(209, 114, 79, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 7px 25px;
+}
+
+.order-btn a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.order-btn a:hover{
+  color: unset;
+}
+
+.order-btn::before {
+  content: "";
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 60px rgba(255, 0, 0, 0.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  transform: translateY(-6px);
+}
+
+.order-btn:hover::before,
+.order-btn:focus::before {
+  opacity: 1;
+}
+
+.order-btn::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #df2020;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 2s infinite;
+}
+
+.order-btn:hover::after,
+.order-btn:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+}
+
+.hero-footer p {
+  color: #212245;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.shipping-icon i {
+  background-color: #df2020;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 1400px){
+  .hero-image{
+    margin-top: -80px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hero-image{
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-title{
+    font-size: 2rem;
+  }
+
+  .hero-content{
+    padding-top: 30px;
+  }
+
+  .order-btn, .all-foods-btn{
+    font-size: .9rem;
+  }
+
+  .hero-image{
+    width: 100%;
+    margin-top: 50px;
+  }
+
+}

@@ -1,0 +1,42 @@
+.submitting{
+   font-size: .5rem !important;
+}
+
+.error-message{
+    font-size: .8rem;
+    color: red;
+}
+
+.below-text a{
+    font-size: .7rem ;
+    color: #df2020;
+}
+
+@media only screen and (max-width:576px){
+
+
+    .form{
+        width: 90%;
+    }
+
+    .below-text a{
+        font-size: .6rem;
+    }
+
+    .form input{
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .form-row{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .form-row{
+        width: 50%;
+    }
+}
