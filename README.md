@@ -10,5 +10,5 @@ then for running the project
 
 ### `npm run dev`
 
-vless://b0bd0340-0fbe-4d08-9c63-004a820eebf0@95.216.2.238:2096?encryption=none&security=reality&sni=www.speedtest.net&fp=firefox&pbk=r4STiBg-A0nlRcFbbdwv2PEvUsfioL0TDF8Uk-6pJmc&sid=495b5292&spx=%2F&type=grpc&serviceName=SNAPP&mode=multi#Private-MCI2
+vless://2b8dadd1-5f0e-423b-9067-407ab602e607@95.216.2.238:2053?encryption=none&security=reality&sni=nodejs.org&fp=firefox&pbk=ZNfGmuYtMqSp5p374FjqycZLQcrZ1gTCE2IEzA-_vVE&sid=ee573db3&spx=%2F&type=http&host=google.com&path=%2F#Private-MTN2
 
