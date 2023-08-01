@@ -10,7 +10,9 @@ then for running the project
 
 ### `npm run dev`
 
-vless://76d51615-da1a-46f6-824e-fd8649c6b4d9@95.216.2.238:2096?encryption=none&security=reality&sni=www.speedtest.net&fp=firefox&pbk=YLBzmkagRieuipqG6TSV-VnSO_QYhNF1c5Ni-YgqWBU&sid=0576d5be&spx=%2F&type=grpc&serviceName=SNAPP&mode=multi#MMad-FN-Private-MCI13
+vless://2126846a-c02a-443f-a9cb-63c530650c45@144.76.198.52:2096?encryption=none&security=reality&sni=www.speedtest.net&fp=firefox&pbk=9XsYTFurnPEmgXYRWKiggKBe_cABXK5N4Dj6nrsfikY&sid=c44b5b62&spx=%2F&type=grpc&serviceName=%40MMad&mode=gun#MMad-DE-Private-SP
+
+
 
 
 
